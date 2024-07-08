@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrasi Form (085)</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <a id="balik" href="../index.html"><i class="bi bi-chevron-left"></i> back </a>  
+    <h2>Registrasi</h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Nama" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Alamat" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Email" required>
+      </div>
+      <div class="input-box">
+        <input id="NoTlp" type="number" placeholder="No Telepon" required>
+      </div>
+      <h4>Jenis Kelamin</h4>
+      <div class="input_field radio_option">
+        <input type="radio" name="radiogroup1" id="rd1">
+        <label for="rd1">Laki-Laki</label>
+        <input type="radio" name="radiogroup1" id="rd2">
+        <label for="rd2">Perempuan</label>
+      </div>
+      <div class="input_field select_option">
+        <div class="policy">
+          <input type="checkbox">
+          <h3 style="color: #000">Saya Menerima Semua S&K*</h3>
+        </div>
+        <div class="input-box button">
+          <input type="Submit" value="Registrasi">
+        </div>
+    </form>
+  </div>
+</body>
+
+</html>
